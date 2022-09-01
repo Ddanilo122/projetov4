@@ -1,0 +1,71 @@
+body{
+    background-image:linear-gradient(red ,yellow, blue);
+    color:black;
+}
+
+
+.menu{
+
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    background:darkred;
+    color:white;
+    padding:30px;
+
+}
+
+section{
+    color:white;
+    font-size: 40px;
+    font-family: monospace;
+    
+}
+#apps{
+    background-image:linear-gradient(red ,green, blue);
+    font-family: 'Shadows Into Light', cursive;
+    color:blue
+}
+#jogos{
+    background-image:linear-gradient(red ,white);
+    font-family: 'Shadows Into Light', cursive;
+    color:black
+} 
+
+#bots{
+    background-image:linear-gradient(black ,red,purple);
+    font-family: 'Shadows Into Light', cursive;
+    color:purple
+}
+.topo{
+    background:white;
+    padding:20px;
+    font-size: 25px;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.link a{
+    padding:19px;
+    font-size: 40px;
+    text-decoration: none;
+    color:white;
+
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color:red;
+}
+
+
+.botao{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    font-size: 40px;
+}
+
+
